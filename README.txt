@@ -9,6 +9,7 @@ This code evaluates multiple models to predict the a users sentiment/review is b
 
 
 Execution:
+Update the file path in line 78.
 The code can be executed either in IDE or terminal. The output will be a confusion matrix plot and performance metrics for each model, and a ROC curve (please close all confusion matrix plots for the ROC curve to show up).
 
 
