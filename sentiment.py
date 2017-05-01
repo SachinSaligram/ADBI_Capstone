@@ -75,7 +75,7 @@ def format(x):
 
 
 # Import JSON file
-with open('/Users/sachin/Google Drive/CSC 591 BI/Projects/Capstone/Yelp Dataset/yelp_academic_dataset_review1.json', 'rb') as f:
+with open('/yelp_academic_dataset_review1.json', 'rb') as f:
     data = f.readlines()
 data = map(lambda x: x.rstrip(), data)
 data_json_str = "[" + ','.join(data) + "]"
